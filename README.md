@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" width="280" alt="AD Misconfiguration Scanner Logo">
+</p>
+
 # AD Misconfiguration Scanner
 
 Lightweight Active Directory enumeration \& misconfiguration detection tool for authorized security assessments.
