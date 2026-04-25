@@ -33,7 +33,7 @@ chmod +x ad-misconfig-scanner.sh
 ```
 
 # Requirements
-* Linux (Kali / Ubuntu recommended)
+* Linux (Kali/Ubuntu recommended)
 * Bash 4+
  
 
