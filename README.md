@@ -40,7 +40,7 @@ chmod +x ad-misconfig-scanner.sh
 Install dependencies:
 ```bash
 
-sudo apt update \&\& sudo apt install -y ldap-utils python3-pip
+sudo apt update && sudo apt install -y ldap-utils python3-pip
 
 pip3 install impacket
 pipx install netexec
