@@ -56,10 +56,10 @@ pipx install enum4linux-ng
 
 # Usage
 ```bash
-./ad-misconfig-scanner.sh \\
--t <target\_ip> \\
--d <domain> \\
--u <username> \\
+./ad-misconfig-scanner.sh \
+-t <target\_ip> \
+-d <domain> \
+-u <username> \
 -p <password>
 
 ```
