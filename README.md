@@ -4,7 +4,7 @@
 
 # AD Misconfiguration Scanner
 
-Lightweight Active Directory enumeration \& misconfiguration detection tool for authorized security assessments.
+Lightweight Active Directory enumeration & misconfiguration detection tool for authorized security assessments.
 ---
 # Overview
 
@@ -30,7 +30,7 @@ Built for **speed, simplicity, and practical pentest usage**.
 # Installation
 ```bash
 
-git clone https://github.com/yourusername/ad-misconfig-scanner.git
+git clone https://github.com/ikpehlivan/ad-misconfig-scanner.git
 cd ad-misconfig-scanner
 chmod +x ad-misconfig-scanner.sh
 
@@ -57,7 +57,7 @@ pipx install enum4linux-ng
 # Usage
 ```bash
 ./ad-misconfig-scanner.sh \
--t <target\_ip> \
+-t <target_ip> \
 -d <domain> \
 -u <username> \
 -p <password>
@@ -78,12 +78,12 @@ Output
 Results are saved in a timestamped directory:
 
 ```
-scan\_XXXXXXXX/
-├── ldap\_spn.txt
+scan_XXXXXXXX/
+├── ldap_spn.txt
 ├── asrep.txt
-├── asrep\_hashes.txt
-├── smb\_enum.txt
-├── nxc\_shares.txt
+├── asrep_hashes.txt
+├── smb_enum.txt
+├── nxc_shares.txt
 ├── rid.txt
 ├── report.json
 └── report.html
