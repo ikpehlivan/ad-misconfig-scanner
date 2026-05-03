@@ -2,9 +2,11 @@
   <img src="assets/logo.png" width="280" alt="AD Misconfiguration Scanner Logo">
 </p>
 
-# AD Misconfiguration Scanner
+---
 
+# AD Misconfiguration Scanner
 Lightweight Active Directory enumeration & misconfiguration detection tool for authorized security assessments.
+
 ---
 # Overview
 
@@ -28,8 +30,7 @@ Built for **speed, simplicity, and practical pentest usage**.
 * Clean and structured output
 ---
 # Installation
-```bash
-
+```
 git clone https://github.com/ikpehlivan/ad-misconfig-scanner.git
 cd ad-misconfig-scanner
 chmod +x ad-misconfig-scanner.sh
@@ -42,7 +43,7 @@ chmod +x ad-misconfig-scanner.sh
  
 
 Install dependencies:
-```bash
+```
 
 sudo apt update && sudo apt install -y ldap-utils python3-pip
 
